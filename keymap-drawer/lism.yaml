@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
