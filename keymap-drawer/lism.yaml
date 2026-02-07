@@ -16,11 +16,11 @@ layers:
   - {t: D, h: Mark Layer}
   - {t: F, h: Number Layer}
   - G
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - H
+  - J
+  - K
+  - {t: L, h: Number Layer}
+  - {t: ;, h: Mouse Layer}
   - Z
   - X
   - C
@@ -32,8 +32,8 @@ layers:
   - .
   - /
   - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - LEFT SHIFT
+  - LEFT CONTROL
   - Sft+Gui+4
   - SPACE
   - TAB
@@ -63,7 +63,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - {t: '&msc SCRL_DOWN', type: held}
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

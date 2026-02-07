@@ -205,28 +205,26 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(476, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">H</text>
-<text x="0" y="24" class="key hold">RCTRL</text>
 </g>
 <g transform="translate(532, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<text x="0" y="24" class="key hold">RGUI</text>
 </g>
 <g transform="translate(588, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">K</text>
-<text x="0" y="24" class="key hold">RSHIFT</text>
 </g>
 <g transform="translate(644, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
-<text x="0" y="24" class="key hold">RALT</text>
-</g>
+<a href="#Number-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Number Lay…</tspan></text>
+</a></g>
 <g transform="translate(700, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<a href="#Mark-Layer">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 70%">Mark Layer</tspan></text>
+<a href="#Mouse-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Mouse Layer</tspan></text>
 </a></g>
 <g transform="translate(28, 140)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -276,18 +274,16 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g transform="translate(84, 196)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Mouse-Layer">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">Mouse</tspan><tspan x="0" dy="1.2em">Layer</tspan>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
 </text>
-</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 196)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">TAB</text>
-<a href="#Mouse-Layer">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Mouse Layer</tspan></text>
-</a></g>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">CONTROL</tspan>
+</text>
+</g>
 <g transform="translate(196, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
@@ -425,9 +421,9 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="0" dy="-0.6em">&amp;msc</tspan><tspan x="0" dy="1.2em">SCRL_UP</tspan>
 </text>
 </g>
-<g transform="translate(700, 84)" class="key keypos-19">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
+<g transform="translate(700, 84)" class="key held keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">
 <tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_DOWN</tspan>
 </text>
 </g>
@@ -481,8 +477,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(140, 196)" class="key held keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(140, 196)" class="key trans keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(196, 196)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
