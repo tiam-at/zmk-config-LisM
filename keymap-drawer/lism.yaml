@@ -96,7 +96,7 @@ layers:
   - '!'
   - (
   - )
-  - RSHIFT
+  - '-'
   - '*'
   - LEFT ARROW
   - DOWN ARROW
@@ -106,7 +106,7 @@ layers:
   - '@'
   - '{'
   - '}'
-  - RGUI
+  - '='
   - /
   - '1'
   - '2'
@@ -116,7 +116,7 @@ layers:
   - ''
   - LESS THAN
   - GREATER THAN
-  - RALT
+  - /
   - {t: ▽, type: trans}
   - .
   - '0'
