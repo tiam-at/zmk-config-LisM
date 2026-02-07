@@ -73,9 +73,9 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans        &kp NUMBER_7    &kp UP_ARROW    &kp NUMBER_9     &kp EQUAL                          &kp DOLLAR     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RSHIFT
-&kp ASTERISK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt LCTRL MINUS                    &kp AMPERSAND  &kp AT_SIGN      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RGUI
-&kp SLASH     &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp PLUS                           &mkp MB2       &none            &kp LESS_THAN         &kp GREATER_THAN       &kp RALT
+&trans        &kp NUMBER_7    &kp UP_ARROW    &kp NUMBER_9     &kp EQUAL                          &kp DOLLAR     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp ASTERISK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt LCTRL MINUS                    &kp AMPERSAND  &kp AT_SIGN      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL
+&kp SLASH     &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp PLUS                           &mkp MB2       &none            &kp LESS_THAN         &kp GREATER_THAN       &kp SLASH
 &trans        &kp DOT         &kp NUMBER_0    &trans           &kp LANG2        &trans    &trans  &kp LANG1      &trans           &kp RS(RC(TAB))       &kp RC(TAB)            &kp F12
             >;
 
