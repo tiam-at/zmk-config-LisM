@@ -49,28 +49,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↑
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - {t: '&msc SCRL_DOWN', type: held}
+  - {t: C, h: Number Layer}
+  - {type: held}
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - ↑
   - →
   - {t: ▽, type: trans}
