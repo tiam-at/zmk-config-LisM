@@ -63,20 +63,20 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans    &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans     &trans
-&mkp MB5  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &lt 2 C    &trans
-&mkp MB4  &trans  &trans  &trans  &trans                    &mkp MB3  &trans    &kp UP    &kp RIGHT  &trans
-&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &kp DOWN  &trans     &kp LG(W)
+&trans    &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans   &trans
+&mkp MB5  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &lt 2 C  &trans
+&mkp MB4  &trans  &trans  &trans  &trans                    &mkp MB3  &trans    &trans    &trans   &trans
+&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &kp DOWN  &trans   &kp LG(W)
             >;
         };
 
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1     &kp F2    &kp F7           &kp F10      &kp RSHIFT
-&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &mkp MB1   &kp LEFT  &kp UP           &kp RIGHT    &kp RGUI
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &mkp MB2   &none     &kp DOWN         &none        &kp RALT
-&trans        &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &trans    &trans  &kp LANG1  &trans    &kp RS(RC(TAB))  &kp RC(TAB)  &kp F12
+&trans        &kp NUMBER_7    &kp UP_ARROW    &kp NUMBER_9     &kp EQUAL                          &kp DOLLAR     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RSHIFT
+&kp ASTERISK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mt LCTRL MINUS                    &kp AMPERSAND  &kp AT_SIGN      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RGUI
+&kp SLASH     &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp PLUS                           &mkp MB2       &none            &kp LESS_THAN         &kp GREATER_THAN       &kp RALT
+&trans        &kp DOT         &kp NUMBER_0    &trans           &kp LANG2        &trans    &trans  &kp LANG1      &trans           &kp RS(RC(TAB))       &kp RC(TAB)            &kp F12
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
@@ -85,10 +85,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&kp LS(LG(N4))  &kp F4   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN       &kp HASH           &kp DOLLAR
-&emoji          &kp F5   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE  &kp UNDER        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH
-&kp KP_NUMLOCK  &kp F11  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT      &kp CARET         &kp AMPERSAND      &kp ASTERISK
-&trans          &trans   &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans           &none             &none              &kp F12
+&kp LS(LG(N4))  &kp F4   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp TILDE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&emoji          &kp F5   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp KP_NUMLOCK  &kp F11  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
+&trans          &trans   &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &trans           &trans           &none            &none            &kp F12
             >;
         };
 
