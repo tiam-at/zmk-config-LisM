@@ -12,9 +12,9 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
+  - S
+  - {t: D, h: Mark Layer}
+  - {t: F, h: Number Layer}
   - G
   - {t: H, h: RCTRL}
   - {t: J, h: RGUI}
@@ -35,8 +35,8 @@ layers:
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
+  - SPACE
+  - TAB
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
@@ -100,7 +100,7 @@ layers:
   - '*'
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
+  - {t: '6', h: LGUI, type: held}
   - {t: '-', h: LCTRL}
   - '&mkp MB1'
   - ←
@@ -121,7 +121,7 @@ layers:
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG1
@@ -142,14 +142,14 @@ layers:
   - $
   - '&emoji'
   - F5
-  - '['
+  - {t: '[', type: held}
   - ']'
   - ''
   - '`'
   - _
   - ''''
   - '"'
-  - {t: \, type: held}
+  - \
   - KP NUMLOCK
   - F11
   - '{'
