@@ -131,9 +131,9 @@ layers:
   - F12
   Mark Layer:
   - Sft+Gui+4
-  - F4
-  - (
-  - )
+  - VOLUME DOWN
+  - {t: ▽, type: trans}
+  - VOLUME UP
   - ''
   - '~'
   - KP 7
@@ -141,9 +141,9 @@ layers:
   - KP 9
   - KP MINUS
   - '&emoji'
-  - F5
-  - {t: '[', type: held}
-  - ']'
+  - F14
+  - {type: held}
+  - F15
   - ''
   - '`'
   - KP 4
@@ -151,9 +151,9 @@ layers:
   - KP 6
   - KP PLUS
   - KP NUMLOCK
-  - F11
-  - '{'
-  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - KP 0
   - KP 1
@@ -162,7 +162,7 @@ layers:
   - KP EQUAL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - {t: ▽, type: trans}
