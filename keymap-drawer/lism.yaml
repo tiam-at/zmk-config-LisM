@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - Q
+  - {t: Q, h: LEFT CONTROL}
   - W
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LEFT SHIFT}
   - S
   - {t: D, h: Mark Layer}
   - {t: F, h: Number Layer}
@@ -21,7 +21,7 @@ layers:
   - K
   - {t: L, h: Number Layer}
   - {t: ;, h: Mouse Layer}
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - /
-  - {t: DEL, h: Device Layer}
+  - LEFT GUI
   - LEFT SHIFT
   - LEFT CONTROL
   - Sft+Gui+4
@@ -54,7 +54,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - '&mkp MB2'
   - {t: C, h: Number Layer}
   - {type: held}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,10 +88,10 @@ layers:
   - Gui+W
   Number Layer:
   - {t: ▽, type: trans}
-  - '7'
+  - Alt+Gui+LEFT ARROW
   - UP ARROW
-  - '9'
-  - '='
+  - Alt+Gui+RIGHT ARROW
+  - {t: ▽, type: trans}
   - $
   - '!'
   - (
@@ -101,17 +101,17 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - {t: RIGHT ARROW, type: held}
-  - {t: '-', h: LCTRL}
+  - {t: ▽, type: trans}
   - '&'
   - '@'
   - '{'
   - '}'
   - '='
   - /
-  - '1'
+  - Ctl+Gui+LEFT ARROW
   - '2'
-  - '3'
-  - +
+  - Ctl+Gui+RIGHT ARROW
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - ''
   - LESS THAN
@@ -152,7 +152,7 @@ layers:
   - KP PLUS
   - KP NUMLOCK
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&pass'
   - {t: ▽, type: trans}
   - ''
   - KP 0
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
@@ -214,4 +214,4 @@ layers:
   - ''
   - ''
   - ''
-  - Boot
+  - {t: Boot, type: held}
