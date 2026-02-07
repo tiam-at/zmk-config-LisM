@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+W
+  - {t: ▽, type: trans}
   Number Layer:
   - {t: ▽, type: trans}
   - Alt+Gui+LEFT ARROW
@@ -97,7 +97,7 @@ layers:
   - (
   - )
   - '-'
-  - '*'
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - {t: RIGHT ARROW, type: held}
@@ -106,31 +106,31 @@ layers:
   - '@'
   - '{'
   - '}'
-  - '='
-  - /
+  - {t: '=', h: Mouse Layer}
+  - {t: ▽, type: trans}
   - Ctl+Gui+LEFT ARROW
-  - '2'
+  - {t: ▽, type: trans}
   - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - '&mkp MB2'
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LESS THAN
   - GREATER THAN
   - /
   - {t: ▽, type: trans}
-  - .
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG1
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
-  - F12
-  Mark Layer:
   - Sft+Gui+4
+  Mark Layer:
+  - {t: ▽, type: trans}
   - VOLUME DOWN
   - {t: ▽, type: trans}
   - VOLUME UP
@@ -150,7 +150,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - KP NUMLOCK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&pass'
   - {t: ▽, type: trans}
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
