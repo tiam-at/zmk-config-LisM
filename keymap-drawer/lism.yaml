@@ -71,8 +71,8 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - ↑
-  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,23 +89,23 @@ layers:
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
-  - '8'
+  - UP ARROW
   - '9'
   - '='
-  - F1
-  - F2
-  - F7
-  - F10
+  - $
+  - '!'
+  - (
+  - )
   - RSHIFT
   - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI, type: held}
+  - LEFT ARROW
+  - DOWN ARROW
+  - {t: RIGHT ARROW, type: held}
   - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
+  - '&'
+  - '@'
+  - '{'
+  - '}'
   - RGUI
   - /
   - '1'
@@ -114,8 +114,8 @@ layers:
   - +
   - '&mkp MB2'
   - ''
-  - ↓
-  - ''
+  - LESS THAN
+  - GREATER THAN
   - RALT
   - {t: ▽, type: trans}
   - .
@@ -136,30 +136,30 @@ layers:
   - )
   - ''
   - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
   - '&emoji'
   - F5
   - {t: '[', type: held}
   - ']'
   - ''
   - '`'
-  - _
-  - ''''
-  - '"'
-  - \
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
   - KP NUMLOCK
   - F11
   - '{'
   - '}'
   - ''
-  - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP EQUAL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -167,7 +167,7 @@ layers:
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
