@@ -34,6 +34,13 @@
             bindings = <&kp KP_NUMBER_1 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_8 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp ENTER &kp LS(LG(UP_ARROW)) &kp BACKSPACE>;
             label = "NEW_MACRO";
         };
+
+        linePass: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp A &kp S &kp A &kp K &kp I &kp KP_N0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_4 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp ENTER &kp LG(LS(UP_ARROW)) &kp BACKSPACE>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
@@ -70,10 +77,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &mkp MB5  &trans    &trans    &trans   &trans
-&trans  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &lt 2 C  &trans
-&trans  &trans  &trans  &trans  &trans                    &mkp MB4  &trans    &trans    &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans                           &mkp MB5  &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans                           &trans    &mkp MB1  &mkp MB2  &lt 2 C  &trans
+&trans  &trans  &trans  &trans  &trans                           &mkp MB4  &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LC(A))  &trans    &trans    &trans    &trans   &trans
             >;
         };
 
@@ -94,7 +101,7 @@
             bindings = <
 &trans  &kp C_VOLUME_DOWN  &trans  &kp C_VOLUME_UP  &none                              &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
 &emoji  &kp F14            &trans  &kp F15          &none                              &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
-&trans  &trans             &pass   &trans           &none                              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
+&trans  &linePass          &pass   &trans           &none                              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
 &trans  &trans             &trans  &kp F7           &kp F8  &kp F9    &kp KP_ASTERISK  &kp KP_SLASH     &trans           &none            &none            &kp F12
             >;
         };
