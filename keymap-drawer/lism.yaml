@@ -121,13 +121,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Sft+Gui+4
   Mark Layer:
   - {t: ▽, type: trans}
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - VOLUME UP
   - ''
-  - '~'
+  - {t: ▽, type: trans}
   - KP 7
   - KP 8
   - KP 9
@@ -145,7 +145,7 @@ layers:
   - {type: held}
   - F15
   - ''
-  - '`'
+  - {t: ▽, type: trans}
   - KP 4
   - KP 5
   - KP 6
@@ -166,8 +166,8 @@ layers:
   - {t: ▽, type: trans}
   - F8
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP ASTERISK
+  - KP SLASH
   - {t: ▽, type: trans}
   - ''
   - ''
