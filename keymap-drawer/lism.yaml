@@ -151,7 +151,7 @@ layers:
   - KP 6
   - KP PLUS
   - {t: ▽, type: trans}
-  - '&linePass'
+  - {t: ▽, type: trans}
   - '&pass'
   - {t: ▽, type: trans}
   - ''
