@@ -163,9 +163,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F7
   - F8
-  - {t: ▽, type: trans}
+  - F9
   - KP ASTERISK
   - KP SLASH
   - {t: ▽, type: trans}
