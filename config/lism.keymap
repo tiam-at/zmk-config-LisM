@@ -70,9 +70,9 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans                    &mkp MB5  &trans    &trans    &trans   &trans
 &trans  &trans  &trans  &trans  &trans                    &trans    &mkp MB1  &mkp MB2  &lt 2 C  &trans
-&trans  &trans  &trans  &trans  &trans                    &mkp MB3  &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans                    &mkp MB4  &trans    &trans    &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans   &trans
             >;
         };
